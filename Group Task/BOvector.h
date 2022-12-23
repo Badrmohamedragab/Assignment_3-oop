@@ -83,7 +83,7 @@ public:
         return *this;
     }
 
-    BOVector(T arr[], int n)
+    BOVector(T* arr, int n)
     {
         this->size = n;
         this->capacity = n;
